@@ -1,8 +1,13 @@
 # Sequelize Many To Many Association With UUID Ids
 
-This app was bootstrapped with [Imagine.ai](https://imagine.ai) 💛
-> Imagine.ai is an app starter on steroids!
-The purpose of this app is to demonstrate that npm run test succeeds when run on a sequelize model User and a sequelize model Role having a many to many relationship via RoleUser both having UUID userId and roleId on sequelize version 6.20.1 whereas the tests fail if the data type of userId and roleId was integer instead on the postgres dialect
+- The purpose of this app is to demonstrate that npm run test succeeds when run on a sequelize model User and a sequelize model Role having a many to many relationship via RoleUser both having UUID userId and roleId on sequelize version 6.20.1 whereas the tests fail if the data type of userId and roleId was integer instead on the postgres dialect
+- Check the User and Role model and their associated controller which use UUID userId and roleId columns compared to the other version where they use integers.
+- Run the command below and see the tests succeed
+```
+npm run test
+```
+
+![Pass Tests Screenshot](https://i.imgur.com/LWj46sp.png)
 
 ### Run the app in terminal
 1. Start a Postgres database server on your machine or in the cloud.
