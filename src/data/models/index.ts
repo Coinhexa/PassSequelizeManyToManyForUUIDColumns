@@ -1,6 +1,5 @@
 /* eslint import/no-cycle: "off" */
 import { Sequelize } from 'sequelize-typescript';
-import dotenv from 'dotenv';
 import config from 'config';
 
 import Role from './role.model';
@@ -9,8 +8,6 @@ const pg = require('pg');
 
 // https://github.com/sequelize/sequelize/issues/4550
 pg.defaults.parseInt8 = true;
-
-dotenv.config();
 
 const sequelize = new Sequelize({
   ...config,

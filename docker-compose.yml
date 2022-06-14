@@ -7,16 +7,10 @@ services:
       - 8000
     depends_on:
       - database
+    env_file:
+      - ./.env.docker
   database:
     image: postgres
     hostname: database
     env_file:
-      - ./.env
-  nginx:
-    restart: always
-    build:
-      context: ./nginx
-    ports:
-      - "8000:80"
-    depends_on:
-      - nodeserver
+      - ./.env.docker

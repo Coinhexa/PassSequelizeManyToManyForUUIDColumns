@@ -1,7 +1,4 @@
-import dotenv from 'dotenv';
 import { Dialect } from 'sequelize/types';
-
-dotenv.config();
 
 const env: string = process.env.NODE_ENV || 'development';
 
