@@ -55,7 +55,7 @@
     "@types/request-promise": "4.1.48",
     "@types/supertest": "2.0.12",
     "@types/validator": "^13.7.3",
-    "@typescript-eslint/eslint-plugin": "5.27.1",
+    "@typescript-eslint/eslint-plugin": "5.38.1",
     "@typescript-eslint/parser": "^5.27.1",
     "concurrently": "7.2.1",
     "debug": "^4.3.4",
