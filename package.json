@@ -56,7 +56,7 @@
     "@types/supertest": "2.0.12",
     "@types/validator": "^13.7.3",
     "@typescript-eslint/eslint-plugin": "5.27.1",
-    "@typescript-eslint/parser": "^5.27.1",
+    "@typescript-eslint/parser": "^5.42.0",
     "concurrently": "7.2.1",
     "debug": "^4.3.4",
     "eslint": "8.17.0",
